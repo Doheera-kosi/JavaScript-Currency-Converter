@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Farro:wght@300;400;500;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@300;400;700;900&family=Lobster+Two:wght@400;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Satisfy&display=swap');
+
+body {
+  background-color: aliceblue;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  font-family: 'Farro', cursive;
+  margin: 35px auto 20px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 2px solid black;
+  width: 40%;
+  margin-bottom: 55px;
+}
+
+.main {
+  width: 50vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+label {
+  font-size: 20px;
+}
+
+.btn {
+  width: 200px;
+}
+
+#finalAmount {
+  font-family: 'Lobster', cursive;
+  display: none;
+  margin: 50px auto;
+}
+
+#finalAmount h2 {
+  font-size: 50px;
+}
+
+.finalValue {
+  font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+
+  html,
+  body {
+    overflow: hidden;
+  }
+
+  hr {
+    width: 60%;
+  }
+
+  .main {
+    width: 100%;
+    background-color: rgb(122, 122, 112);
+  }
+}
+
+@media (max-width: 400px) {
+
+  .heading {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  hr {
+    width: 75%;
+  }
+
+  #finalAmount h2, .finalValue {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
