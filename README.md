@@ -29,8 +29,8 @@
 ## 📷 [Screenshots]
 
 <div>
-  <img src="./src/assets/cct1.PNG" />
-  <img src="./src/assets/cc2.PNG" />
+  <img src="./cct1.PNG" />
+  <img src="./cc2.PNG" />
 </div>
 
 ## 🛠 Built With <a name="built-with"></a>
