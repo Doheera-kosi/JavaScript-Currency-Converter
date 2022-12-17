@@ -26,8 +26,9 @@ hr {
   margin: auto;
   padding: 30px;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(175, 199, 216, 0.5);
   color: white;
+  box-shadow: 1px 3px 3px 5px black;
 }
 
 label {
