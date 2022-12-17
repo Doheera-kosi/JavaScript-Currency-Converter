@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://doheera-kosi.github.io/JavaScript-Currency-Converter/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
